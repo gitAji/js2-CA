@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: 'Helvetica', 'monospace';
+    font-size: 28px;
+    letter-spacing: 12px;
+    text-align: center;
+    text-decoration: dashed;
+}
+
+p {
+    font-family: 'monospace';
+    font-size: 16px;
+}
+
+nav {
+    height: 40px;
+    margin-bottom: 12px;
+    width: 100%;
+    padding: 16px;
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    position: absolute;
+    padding: 12px 12px;
+    right: 0;
+}
+
+nav ul li {
+    margin: 12px;
+    list-style: none;
+
+}
+
+nav ul li a {
+    display: block;
+    padding: 5px 5px;
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 26px;
+    color: aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 16px;
+    padding: 12px;
+}
+
+.results {
+    margin: 12px;
+    padding: 12px;
+}
+
+.results ul li {
+    padding: 12px;
+   
+}
+
+#loading {
+    font-size: 24px;
+    font-family: sans-serif;
+    color: green;
+    padding: 18px;
+}
+.intro{
+    padding:30px;
+    background-color:rgb(255, 255, 255);
+}
+.head {
+    background-color: rgb(199, 197, 192);
+    padding: 10px;
+    margin:12px;
+    text-align: center;
+   
+}
+
+.cart {
+    padding: 20px;
+    margin:12px;
+    background-color: rgb(243, 240, 236);
+}
+
+.back {
+    padding: 20px 40px;
+    margin: 2% 50%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.back:hover{
+    color: white;
+    background-color: rgb(68, 68, 68);
+}
+
+/* form */
+.container {
+    align-items: center;
+    width: 80%;
+    padding: 12px;
+    margin: auto;
+    font-size: 20px;
+
+}
+
+input[type=text] {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+    margin-block: 12px;
+}
+
+input[type=email] {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+    margin-block: 12px;
+}
+
+input[type=text-area] {
+    display: inline-block;
+    width: 100%;
+    padding: 24px 0;
+    margin-block: 12px;
+}
+
+button {
+    width: 30%;
+    padding: 24px 10px;
+    margin: 20px 0;
+    border-radius: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: rgb(247, 247, 247);
+    background-color: rgb(0, 0, 0);
+}
+button:hover{
+    border-radius: 10px;
+    border: 1px solid;
+    color: rgb(250, 250, 250);
+    background-color: rgb(49, 49, 49);   
+}
+input[type=button]:hover {
+    border-radius: 10px;
+    color: rgb(250, 250, 250);
+    background-color: rgb(49, 49, 49);
+}
+
+label {
+
+    font-weight: bold;
+}
+::placeholder {
+    color:rgb(194, 193, 193);
+    padding:0 20px;
+}
+
+.form-error {
+    color: rgb(179, 0, 0);
+    padding-bottom: 2px;
+    font-size: x-small;
+    display: none;
+}
+
+footer {
+   position:fixed;
+   bottom: 0;
+    padding: 12px ;
+    background-color: black;
+    width: 100%;
+    height: auto;
+   
+}
+
+footer p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
